@@ -1,0 +1,27 @@
+@import '@ovhcloud/ods-themes/default';
+
+html,
+body,
+#app {
+  margin: 0;
+  height: 100vh;
+}
+
+html {
+  font-family: var(--ods-font-family-default);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+li,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
